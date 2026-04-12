@@ -1,0 +1,1 @@
+# ShopFast_SQAP
