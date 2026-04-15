@@ -1,0 +1,22 @@
+{
+  "name": "shopfast-sqa",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --coverage",
+    "contract:test": "node pact/contract.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 85,
+        "lines": 85,
+        "statements": 85
+      }
+    }
+  }
+}
